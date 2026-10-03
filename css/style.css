@@ -50,7 +50,7 @@ header {
 }
 .nav { display: flex; align-items: center; justify-content: space-between; padding: 1rem 0; }
 .nav__logo { font-family: 'Playfair Display', Georgia, serif; font-size: 1.35rem; font-weight: 700; color: var(--text); display: flex; align-items: center; gap: .6rem; }
-.nav__logo svg { flex-shrink: 0; }
+.nav__logo img { height: 40px; width: auto; flex-shrink: 0; }
 .nav__links { display: flex; gap: 1.75rem; list-style: none; align-items: center; }
 .nav__links a { font-size: .95rem; font-weight: 500; color: var(--text-l); transition: color .2s; }
 .nav__links a:hover, .nav__links a.active { color: var(--sage-d); }
